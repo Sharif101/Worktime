@@ -20,7 +20,7 @@ const Details = (props) => {
     },[])
 
     let diffToast = () =>{
-        toast.success("Warning Notification !", {
+        toast.success("Activity Completed !", {
             position: "top-center",
           });
     }
