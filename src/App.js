@@ -1,10 +1,11 @@
 // import logo from './logo.svg';
 import './App.css';
+import Schedule from './Componets/Schedule/Schedule';
 
 function App() {
   return (
-    <div className="App">
-      
+    <div>
+      <Schedule></Schedule>
     </div>
   );
 }
