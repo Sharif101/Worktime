@@ -1,12 +1,16 @@
 .info h2
 {
-    margin-bottom: -15px;
+    margin-bottom: -5px;
     color: rgba(0, 0, 0, 0.815);
 }
 
 .info p
 {
     color: rgba(29, 29, 29, 0.637);
+}
+.info
+{
+    margin-top: 20px;
 }
 
 .bmi
@@ -15,12 +19,15 @@
     justify-content: space-between;
     align-items: center;
     color: rgba(29, 29, 29, 0.705);
-    padding: 0px 20px;
     border-radius: 10px;
     background: #f5f5f5;
     box-shadow:  -5px 5px 8px #d9d9d9,
                     5px -5px 8px #e7e7e7;
     margin-top: 40px;
+}
+.bmi h3{
+    font-size: 20px;
+    padding: 0px 20px;
 }
 .btn
 {
@@ -33,6 +40,7 @@
     box-shadow:  -5px 5px 8px #d9d9d9,
                     5px -5px 8px #e7e7e7;
     margin-top: 40px;
+    margin-bottom: 30px;
 }
 .btn button
 {

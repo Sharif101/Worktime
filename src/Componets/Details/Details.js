@@ -1,7 +1,22 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import './Details.css';
 
 const Details = (props) => {
+
+    const [breaktime, setBreaktime] = useState(0);
+
+    let handler = (e)=>{
+        localStorage.setItem('time', e);
+        setBreaktime(e);
+    }
+
+    useEffect(()=>{
+        let value = localStorage.getItem('time');
+        if(value){
+            setBreaktime(value);
+        }
+    },[])
+
     let {work} = props;
     // console.log(work);
     let time = 0;
@@ -10,11 +25,7 @@ const Details = (props) => {
     }
 
 
-    // let [break, setBreak] = useState([]);
-    let handler = () =>{
-        let time = {};
-        localStorage.setItem('time', JSON.stringify(time))
-    }
+
     return (
         <div className='details'>
             <div className="info">
@@ -27,16 +38,16 @@ const Details = (props) => {
                 <h3>23 <p>Age</p></h3>
             </div>
             <div className='btn'>
-                <button onClick={handler}>10s</button>
-                <button>20s</button>
-                <button>30s</button>
-                <button>40s</button>
-                <button>50s</button>
+                <button onClick={()=> handler(10)}>10s</button>
+                <button onClick={()=> handler(20)}>20s</button>
+                <button onClick={()=> handler(30)}>30s</button>
+                <button onClick={()=> handler(40)}>40s</button>
+                <button onClick={()=> handler(50)}>50s</button>
             </div>
             <div>
                 <h3>Exercise Details</h3>
                 <h4>Exercise Time: <span> {time} seconds</span></h4>
-                <h4>Break Time: <span>  seconds</span></h4>
+                <h4>Break Time: <span> {breaktime} seconds</span></h4>
             </div>
         </div>
     );
