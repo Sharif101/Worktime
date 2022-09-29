@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from 'react';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import './Details.css';
 
 const Details = (props) => {
@@ -17,6 +19,12 @@ const Details = (props) => {
         }
     },[])
 
+    let diffToast = () =>{
+        toast.success("Warning Notification !", {
+            position: "top-center",
+          });
+    }
+
     let {work} = props;
     // console.log(work);
     let time = 0;
@@ -28,6 +36,7 @@ const Details = (props) => {
 
     return (
         <div className='details'>
+             <ToastContainer />
             <div className="info">
                 <h2>MD. Sharif</h2>
                 <p>Sydney, Australia</p>
@@ -49,7 +58,12 @@ const Details = (props) => {
                 <h4>Exercise Time: <span> {time} seconds</span></h4>
                 <h4>Break Time: <span> {breaktime} seconds</span></h4>
             </div>
+            <div className='acti-btn'>
+                <button onClick={diffToast}>Activity Completed</button>
+            
+            </div>
         </div>
+        
     );
 };
 

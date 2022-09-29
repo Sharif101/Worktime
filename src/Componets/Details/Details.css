@@ -68,3 +68,14 @@
 {
     color: rgba(29, 29, 29, 0.712);
 }
+
+.acti-btn button{
+    background-color: #6233f0;
+    width: 100%;
+    color: white;
+    border: none;
+    padding: 15px 0px;
+    margin-top: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}

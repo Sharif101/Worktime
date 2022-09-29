@@ -21,6 +21,7 @@ const Schedule = () => {
     
     return (
         <div className='schedule-container'>
+           
             <div className='exercise-container'>
                 {
                     exercises.map(exercise => <Exercise exercise ={exercise} key ={exercise.id}  addtodetails ={addtodetails}></Exercise>)
