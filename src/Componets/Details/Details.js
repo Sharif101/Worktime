@@ -46,6 +46,8 @@ const Details = (props) => {
                 <h3>5.9 <p>Height</p></h3>
                 <h3>23 <p>Age</p></h3>
             </div>
+            
+            <h3>Break Time</h3>
             <div className='btn'>
                 <button onClick={()=> handler(10)}>10s</button>
                 <button onClick={()=> handler(20)}>20s</button>
