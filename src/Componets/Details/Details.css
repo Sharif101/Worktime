@@ -42,6 +42,10 @@
     border: none;
     cursor: pointer;
 }
+/* .btn button:focus
+{
+    background: red;
+} */
 
  .details h4
 {

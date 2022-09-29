@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Details.css';
 
 const Details = (props) => {
@@ -7,6 +7,13 @@ const Details = (props) => {
     let time = 0;
     for(let exercise of work){
         time = time + exercise.time;
+    }
+
+
+    // let [break, setBreak] = useState([]);
+    let handler = () =>{
+        let time = {};
+        localStorage.setItem('time', JSON.stringify(time))
     }
     return (
         <div className='details'>
@@ -20,7 +27,7 @@ const Details = (props) => {
                 <h3>23 <p>Age</p></h3>
             </div>
             <div className='btn'>
-                <button>10s</button>
+                <button onClick={handler}>10s</button>
                 <button>20s</button>
                 <button>30s</button>
                 <button>40s</button>
