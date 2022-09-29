@@ -19,7 +19,18 @@ const Details = (props) => {
                 <h3>5.9 <p>Height</p></h3>
                 <h3>23 <p>Age</p></h3>
             </div>
-            <h3>Exercise time: {time} seconds</h3>
+            <div className='btn'>
+                <button>10s</button>
+                <button>20s</button>
+                <button>30s</button>
+                <button>40s</button>
+                <button>50s</button>
+            </div>
+            <div>
+                <h3>Exercise Details</h3>
+                <h4>Exercise Time: <span> {time} seconds</span></h4>
+                <h4>Break Time: <span>  seconds</span></h4>
+            </div>
         </div>
     );
 };
