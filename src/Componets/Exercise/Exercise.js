@@ -2,13 +2,14 @@ import React from 'react';
 import './Exercise.css';
 
 const Exercise = (props) => {
-    let {name, time, img} = props.exercise;
+    let {name, time, img, theory} = props.exercise;
     return (
         <div className='exercise'>
             <img src={img} alt="" />
             <h4>{name}</h4>
-            <p>{time}</p>
-            <button>Add to lists</button>
+            <p>{theory}</p>
+            <p>Time required: {time}s</p>
+            <button onClick={()=> props.addtodetails(props.exercise)}>Add to lists</button>
         </div>
     );
 };

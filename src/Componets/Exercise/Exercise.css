@@ -26,3 +26,8 @@
     border-top-right-radius: 10px;
     cursor: pointer;
 }
+
+.exercise p
+{
+    color: rgba(29, 29, 29, 0.774);
+}

@@ -3,7 +3,7 @@
       "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
       "category": "Men's Sneaker",
       "name": "Pushups",
-      "time": "60",
+      "time": 60,
       "theory": "There is no limit to how many push-ups one can do in a day. Many people do more than 300 push-ups a day. But for an average person",
       "img": "https://cdn.pixabay.com/photo/2017/08/07/14/02/man-2604149_960_720.jpg"
     },
@@ -11,7 +11,7 @@
       "id": "13cbc7ed-a61b-4883-9d42-82d7d8642b86",
       "category": "Men's Sneaker",
       "name": "Dumbbells",
-      "time": "20",
+      "time": 20,
       "theory": "Weight lifting with dumbbells lowers your risk of heart attack, stroke, and cardiovascular disease",
       "img": "https://cdn.pixabay.com/photo/2017/07/02/19/24/dumbbells-2465478_960_720.jpg"
     },
@@ -19,7 +19,7 @@
       "id": "307f166f-1d04-4573-bc37-2f461ea9d4f7",
       "category": "Men's Sneaker",
       "name": "Jogging",
-      "time": "30",
+      "time": 30,
       "theory": "Regularly jogging can help you lose weight, especially if you also modify your diet. Jogging can also help you improve your heart health",
       "img": "https://cdn.pixabay.com/photo/2017/05/25/15/08/jogging-2343558_960_720.jpg"
     },
@@ -27,7 +27,7 @@
       "id": "4bf9798f-63bc-4a83-b0c6-6a3b816fe922",
       "category": "Men's Sneaker",
       "name": "Outdoors",
-      "time": "30",
+      "time": 30,
       "theory": "There is no limit to how many push-ups one can do in a day. Many people do more than 300 push-ups a day. But for an average person",
       "img": "https://cdn.pixabay.com/photo/2021/10/19/11/35/yoga-6723315_960_720.jpg"
     },
@@ -35,7 +35,7 @@
       "id": "9496d72b-04ec-41f8-9bc3-0a7c9697be8e",
       "category": "Men's Sneaker",
       "name": "Workout",
-      "time": "45",
+      "time": 45,
       "theory": "Exercise is powerful medicine. Exercise is an important part of a healthy lifestyle. Exercise prevents health problems",
       "img": "https://cdn.pixabay.com/photo/2021/01/13/16/46/workout-5914643_960_720.jpg"
     },
@@ -43,7 +43,7 @@
       "id": "6e5593d3-557b-43cf-8dab-a5140faedfb0",
       "category": "Men's Sneaker",
       "name": "Cycling",
-      "time": "55",
+      "time": 55,
       "theory": "Regular cycling stimulates and improves your heart, lungs and circulation, reducing your risk of cardiovascular diseases.",
       "img": "https://cdn.pixabay.com/photo/2020/08/22/00/24/cyclist-5507225_960_720.jpg"
     }
