@@ -5,3 +5,12 @@
     grid-template-columns: 4fr 1fr;
     margin: 0 100px;
 }
+
+.exercise-container
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 50px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}

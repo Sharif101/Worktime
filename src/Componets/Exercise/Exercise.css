@@ -1,0 +1,28 @@
+.exercise
+{
+    width: 290px;
+    height: 510px;
+    border: 1px solid rgb(197, 197, 197);
+    padding: 10px;
+    position: relative;
+}
+
+.exercise img
+{
+    width: 290px;
+    height: 280px;
+}
+.exercise button
+{
+    width: 100%;
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0;
+    background-color: #FFE0B3;
+    border: none;
+    padding: 10px 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    cursor: pointer;
+}
